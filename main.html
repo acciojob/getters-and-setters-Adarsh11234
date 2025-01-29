@@ -1,16 +1,40 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getters and Setters Example</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <h1>Person, Student, and Teacher Demo</h1>
+    
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Enter name">
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" placeholder="Enter age">
+
+    <br>
+
+    <button onclick="createPerson()">Create Person</button>
+    <button onclick="createStudent()">Create Student</button>
+    <button onclick="createTeacher()">Create Teacher</button>
+
+    <br><br>
+
+    <label for="newAge">Set New Age:</label>
+    <input type="number" id="newAge" placeholder="Enter new age">
+    <button onclick="updateAge()">Update Age</button>
+
+    <br><br>
+
+    <button onclick="performAction()">Perform Action</button>
+
+    <div id="output"></div>
+
+    <script src="script.js"></script>
 
 </body>
-
 </html>
