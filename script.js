@@ -37,3 +37,4 @@ student.study(); // Output: Alice is studying
 
 const teacher = new Teacher("Bob", 40);
 teacher.teach(); // Output: Bob is teaching
+
